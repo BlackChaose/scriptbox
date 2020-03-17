@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('title')
+Charts
+@endsection
+@section('content')
+<pre>
+    {{print_r($datas)}}
+</pre>
+@endsection
